@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selector Example</title>
+  <style>
+    /* Element selector */
+    p {
+      text-align: center;
+      color: green;
+    }
+
+    /* ID selector */
+    #para1 {
+      text-align: center;
+      color: purple;
+    }
+
+    /* Class selector */
+    .center {
+      text-align: center;
+      color: orange;
+    }
+
+    p.center {
+      text-align: center;
+      color: brown;
+    }
+
+    /* CSS Universal Selector */
+    * {
+      text-align: center;
+      color: navy;
+    }
+
+    /* CSS Grouping Selector */
+    h1, h2, p {
+      text-align: center;
+      color: teal;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is a heading</h1>
+  <h2>This is another heading</h2>
+  <p>This is a paragraph.</p>
+  <p id="para1">This is another paragraph with a unique ID.</p>
+  <p class="center">This is a paragraph with a class of "center".</p>
+  <p class="center">This is another paragraph with a class of "center".</p>
+  <p>This is a regular paragraph.</p>
+</body>
+</html>

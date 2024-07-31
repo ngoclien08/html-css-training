@@ -1,0 +1,148 @@
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            gap: 1em;
+        }
+
+
+        ::marker {
+            color: blue;
+        }
+
+
+        ul.bullet-inside {
+            list-style-position: inside;
+        }
+
+
+        li {
+            background-color: aquamarine;
+        }
+
+
+        ul.image-bullet {
+            /* list-style-image: url('https://i.imgur.com/jMyOape.gif'); */
+            list-style-image: url('images/jMyOape.gif');
+        }
+
+
+        ul.type-bullet {
+            list-style-type: "✌";
+        }
+
+
+        ul.list-style {
+            list-style: circle inside url('images/jMyOape.gif');
+        }
+
+
+        .red-marker::marker {
+            color: red;
+        }
+
+
+        .marker-style {
+            margin-left: 1em;
+        }
+
+
+        @keyframes color-change {
+            50% {
+                color: hotpink;
+            }
+        }
+
+
+        .marker-style li::marker {
+            content: '🥕&';
+            color: #0000ff;
+            font-size: 2rem;
+            animation: 3s infinite alternate color-change;
+        }
+
+
+        h1 {
+            display: list-item;
+            margin-left: 3rem;
+        }
+
+
+        h1::marker {
+            content: "🥕"
+        }
+    </style>
+</head>
+
+
+<body>
+    <h2>List styles</h2>
+    <h3><code>list-style-position</code></h3>
+    <div class="container">
+        <ul class="bullet-inside">
+            <li>The bullet point is inside content</li>
+            <li>Another item</li>
+            <li>And another</li>
+        </ul>
+        <ul>
+            <li>The bullet point is outside content</li>
+            <li>Another item</li>
+            <li>And another</li>
+        </ul>
+    </div>
+    <h3><code>list-style-image</code></h3>
+    <ul class="image-bullet">
+        <li>Bullet is now image</li>
+        <li>List items with image bullet <b>ignore positioning</b></li>
+        <li>Another item</li>
+        <li>And another</li>
+    </ul>
+    <h3><code>list-style-type</code></h3>
+    <ul class="type-bullet">
+        <li>Bullet is now in any type, link below:</li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type">Link to all list-style-type</a>
+        </li>
+        <li>Another item</li>
+        <li>And another</li>
+    </ul>
+    <h3><code>list-style</code>shorthand</h3>
+    <ul class="list-style">
+        <li><code>list-style: list-style-type list-style-position list-style-image</code></li>
+        <li>If <code>list-style-type</code> and <code>list-style-image</code> are both set, then
+            <code>list-style-type</code> is used as a fallback if the image is unavailable.</li>
+        <li>Another item</li>
+    </ul>
+    <h2><code>::marker</code> pseudo element</h2>
+    <p></p>
+    <h3>Marker box</h3>
+    <ul>
+        <li>When you declare a list, each item is given a <code>::marker</code>, this is a pseudo-element because the
+            browser generates it for you</li>
+        <li>All markers is now blue</li>
+        <li class="red-marker">This item's marker is red</li>
+    </ul>
+    <h3>Marker styles</h3>
+    <ul class="marker-style">
+        <li><code>animation-*</code>: Used to apply animations to elements. The * is all animation smaller property like
+            <code>animation-name</code></li>
+        <li><code>transition-*</code>: Used to create smooth transitions between different property values.</li>
+        <li><code>color</code>: Specifies the text color.</li>
+        <li><code>direction</code>: Specifies the text direction.</li>
+        <li><code>font-*</code>: Used to specify various font properties.</li>
+        <li><code>content</code>: Used to insert generated content before or after an element.</li>
+        <li><code>unicode-bidi</code>: Used to control the direction of text and the position of the bullet in case of
+            bi-directional texts (mix of rtl and ltr texts).</li>
+        <li><code>white-space</code>: Specifies how white space inside an element is handled.</li>
+    </ul>
+    <h3>Display type</h3>
+    <h1>This is a heading and also a list item</h1>
+    <ul>
+        <li>Make <code>h1</code> a list item by <code>display: list-item</code></li>
+        <li>Another item</li>
+        <li>And another</li>
+    </ul>
+</body>
+
+
+</html>

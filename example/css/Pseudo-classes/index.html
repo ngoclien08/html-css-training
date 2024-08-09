@@ -1,0 +1,133 @@
+<html>
+<head>
+    <style>
+        .before-after::before {
+            content: "Before - ";
+            color: red;
+        }
+
+
+        .before-after::after {
+            content: " - After";
+            color: blue;
+        }
+       
+        .pse-first::first-letter {
+            font-size: 2em;
+            color: red;
+        }
+
+
+        .pse-first::first-line {
+            font-size: 1.5em;
+            color: blue;
+        }
+
+
+        video::backdrop {
+            background-color: goldenrod;
+        }
+
+
+        @keyframes color-change {
+            50% {
+                color: hotpink;
+            }
+        }
+
+
+        li {
+            margin-left: 1em;
+        }
+
+
+        li::marker {
+            content: '🥕&';
+            color: #0000ff;
+            font-size: 2rem;
+            animation: 3s infinite alternate color-change;
+        }
+
+
+        summary::marker {
+            content: "🔍" ;
+        }
+
+
+        details[open] summary::marker {
+            content: '❌';
+        }
+
+
+        .selection {
+            font-size: 2em;
+        }
+
+
+        .selection::selection {
+            background-color: goldenrod;
+            color: crimson
+        }
+
+
+        input::placeholder {
+            color: darkcyan;
+            font-style: italic;
+        }
+
+
+        video::cue {
+            color: white;
+            font-size: 1.5em;
+            background-color: black;
+        }
+
+
+        video::cue(c) {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h2><code>::before</code> and <code>::after</code></h2>
+    <p>Both the <code>::before</code> and <code>::after</code> pseudo-elements create a child element inside an element only if you define a content property.</p>
+    <p>The content can be any string - even an empty one - but be mindful that anything other than an empty string will likely be announced by a screen reader.</p>
+    <p class="before-after">Example of <code>::before</code> and <code>::after</code></p>
+    <p> You can only insert a <code>::before</code> or <code>::after</code> element to an element that will accept child elements , so elements such as &lt;img /&gt;, &lt;video&gt; and &lt;input&gt; won't work.</p>
+    <p>input[type="checkbox"] is an exception. It is allowed to have pseudo-element children.</p>
+    <h2><code>::first-letter</code></h2>
+    <h2><code>::first-line</code></h2>
+    <p class="pse-first">The ::first-letter and ::first-line pseudo-elements target a text element's first letter and first line respectively. It was a dark and stormy night; the rain fell in torrents—except at occasional intervals, when it was checked by a violent gust of wind which swept up the streets (for it is in London that our scene lies), rattling along the housetops, and fiercely agitating the scanty flame of the lamps that struggled against the darkness.</p>
+    <h2><code>::backdrop</code></h2>
+    <p>If you have an element that is presented in full screen mode, such as a &lt;dialog&gt; or a &lt;video&gt;, you can style the backdrop — the space between the element and the rest of the page — with the <code>::backdrop</code> pseudo-element:</p>
+    <video controls>
+        <source src="videos/puppy.mp4" type="video/mp4">
+        <track src="videos/captions.vtt" kind="subtitles" srclang="en" label="English" default>
+    </video>
+    <h2><code>::marker</code></h2>
+    <p>The <code>::marker</code> pseudo-element lets you style the bullet or number for a list item or the arrow of a &lt;summary&gt; element.</p>
+    <p>Only a small subset of CSS properties are supported for <code>::marker</code>:</p>
+    <ul>
+        <li>color</li>
+        <li>content</li>
+        <li>white-space</li>
+        <li>font</li>
+        <li>animation</li>
+        <li>transition</li>
+    </ul>
+    <details>
+        <summary>Click here to see more content, click again to close</summary>
+        <p>Details content: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam natus hic dolore! Ipsa dicta reprehenderit id, nobis eum excepturi minima aperiam molestias sint deleniti similique impedit architecto quam doloremque quia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos minima necessitatibus, iusto doloremque repellat nostrum? Dignissimos, sint excepturi modi temporibus aliquid doloribus in dolore, quisquam quaerat non eum, officia animi?</p>
+    </details>
+    <h2><code>::selection</code></h2>
+    <p class="selection">The <code>::selection</code> pseudo-element change appearance of selected text. Select this text to see more!</p>
+    <h2><code>::placeholder</code></h2>
+    <p>You can add a helper hint to form elements, such as &lt;input&gt; with a <code>placeholder</code> attribute. The <code>::placeholder</code> pseudo-element allows you to style that text.</p>
+    <p>The <code>::placeholder</code> only supports a subset of CSS rules: <code>color</code>, <code>background</code>, <code>font</code>, <code>text</code></p>
+    <label for="email">Email address</label>
+    <input type="email" placeholder="E.G name@example.com" id="email" />
+    <h2><code>::cue</code></h2>
+    <p>The <code>::cue</code> pseudo-element allows you to style the WebVTT cues, which are the captions (or sometime subtitles) of a &lt;video&gt; element.</p>
+    <p>See video above for example.</p>
+</body>
+</html>

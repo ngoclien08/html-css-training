@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Pseudo-element ::before */
+a::before {
+  content: "➤ ";
+  color: #00ff73;
+}
+
+/* Pseudo-element ::after */
+h2::after {
+  content: " 🔗";
+  color: #999;
+}
+
+/* Pseudo-element ::first-line */
+p::first-line {
+  font-weight: bold;
+}
+
+/* Pseudo-element ::selection */
+::selection {
+  background-color: #00ff73;
+  color: #fff;
+}
+</style>
+</head>
+<body>
+<h1>CSS Pseudo-elements Example</h1>
+
+<h2>Heading 2</h2>
+<p>This is a paragraph of text. The first line of this paragraph will be displayed in bold.</p>
+
+<a href="#">Link Text</a>
+
+<p>This is another paragraph. The selected text will have a blue background and white text.</p>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #line-height {
+            line-height: 1.5;
+        }
+
+        #div1 p {
+            width: 50%;
+            background-color: #f2f2f2;
+            padding: 10px;
+            transform: translateX(50%);
+        }
+
+        #absolute-length {
+            font-size: 16px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        #parent1 {
+            font-size: 16px;
+        }
+
+        #em {
+            font-size: 1.5em;
+        }
+
+        #ex {
+            font-size: 1ex;
+        }
+
+        #cap {
+            font-size: 1cap;
+        }
+
+        #ch {
+            font-size: 1ch;
+        }
+
+        #ic {
+            font-size: 1ic;
+        }
+
+        #rem {
+            font-size: 1rem;
+        }
+
+        #lh {
+            line-height: 1lh;
+        }
+
+        #rlh {
+            line-height: 1rlh;
+        }
+
+        #vw {
+            font-size: 1vw;
+        }
+
+        #vh {
+            font-size: 1vh;
+        }
+
+        #vi {
+            font-size: 1vi;
+        }
+
+        #vb {
+            font-size: 1vb;
+        }
+
+        #vmin {
+            font-size: 1vmin;
+        }
+
+        #vmax {
+            font-size: 1vmax;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: blue;">Number</h2>
+    <p id="line-height" style="color: green;">The line height is a ratio of 24px, rather than a specific size. The line height is currently 1.5, which calculates as 36px.</p>
+    <h2 style="color: blue;">Percentage</h2>
+    <div id="div1">
+        <p style="color: green;">This p element is 50% of the parent div's width, which is 150px. Percentage is always calculated from parent's width. Translate is calculated from p tag's width</p>
+    </div>
+    <br>
+    <br>
+    <h2 style="color: blue;">Dimension and length</h2>
+    <h3 style="color: blue;">Absolute length</h3>
+    <div id="absolute-length" style="color: green;">Absolute length is good when designing for print: cm (96px/2.54), mm, Q (1/4 of mm), in, pc (picas = 1/6 of 1in), pt (point = 1/72 of 1in), px (1/96 of 1in)</div>
+    <h3 style="color: blue;">Relative length</h3>
+    <h4 style="color: blue;">Font-size relative length</h4>
+    <div id="parent1">
+        <ul>
+            <li id="em" style="color: green;">1.5em = 150% of font-size</li><br>
+            <li id="ex" style="color: green;">1ex = height of letter "x"</li><br>
+            <li id="cap" style="color: green;">1cap = height of capital letter</li><br>
+            <li id="ch" style="color: green;">1ch = width of "0" of a font</li><br>
+            <li id="ic" style="color: green;">1ic = width of longest character of a font</li><br>
+            <li id="rem" style="color: green;">1rem = font size of the root element (default 16px)</li><br>
+            <li id="lh" style="color: green;">1lh = line height of the element</li><br>
+            <li id="rlh" style="color: green;">1rlh = line height of the root element</li><br>
+        </ul>
+    </div>
+    <h4 style="color: blue;">Viewport relative unit</h4>
+    <div>
+        <ul>
+            <li id="vw" style="color: green;">1vw = 1% of viewport's width</li><br>
+            <li id="vh" style="color: green;">1vh = 1% of viewport's height</li><br>
+            <li id="vi" style="color: green;">1vi = 1% of viewport's size in the root element's inline axis</li><br>
+            <li id="vb" style="color: green;">1vb = 1% of viewport's size in the root element's block axis</li><br>
+            <li id="vmin" style="color: green;">1vmin = 1% of viewport's smaller dimension (if width < height then vmin = 1% width)</li><br>
+            <li id="vmax" style="color: green;">1vmax = 1% of viewport's larger dimension</li><br>
+        </ul>
+    </div>
+    <h2 style="color: blue;">Miscellaneous units</h2>
+    <p style="color: green;">Angle units: 60deg, .5turn</p>
+    <p style="color: green;">Resolution units: 192dpi (dots per inch)</p>
+</body>
+</html>

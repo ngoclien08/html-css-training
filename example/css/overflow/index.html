@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Overflow and Text-Overflow Example</title>
+  <style>
+    .container {
+      width: 200px;
+      height: 100px;
+      border: 1px solid #ccc;
+      overflow: auto;
+    }
+
+    .box {
+      width: 150px;
+      height: 80px;
+      background-color: #e6f2ff;
+      padding: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .box-visible {
+      width: 150px;
+      height: 80px;
+      background-color: #ffebeb;
+      padding: 10px;
+      overflow: visible;
+      text-overflow: clip;
+    }
+
+    .box-scroll {
+      width: 150px;
+      height: 80px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      overflow: scroll;
+      text-overflow: ellipsis;
+    }
+
+    .box-clip {
+      width: 150px;
+      height: 80px;
+      background-color: #f8f8f8;
+      padding: 10px;
+      overflow: clip;
+      text-overflow: clip;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      This is a long text that will overflow the container.
+    </div>
+    <div class="box-visible">
+      This is a long text that will overflow the container.
+    </div>
+    <div class="box-scroll">
+      This is a long text that will overflow the container.
+    </div>
+    <div class="box-clip">
+      This is a long text that will overflow the container.
+    </div>
+  </div>
+</body>
+</html>

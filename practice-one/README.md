@@ -24,22 +24,33 @@
 - CSS3
 
 ## EDITOR
--Visual studio code
+- Visual studio code
 
-## Installation
-1. Clone the project repository:
+## INSTALLATION
+- Clone the project repository:
 
-git clone https://github.com/ngoclien08/html-css-training.git
-2. Move to project branch
+```
+https://github.com/ngoclien08/html-css-training.git
+```
 
+- Move to project branch
+
+```
 git checkout feature/practice-one
-3. Change directory:
+```
+- cd html-css-training
+- Install packages
 
-cd html-css-training
-4. Install node modules:
-
+```
 npm install
-## Running
-Use this command to run the website:
+```
 
+- Run project
+
+```
 npm start
+```
+
+
+
+

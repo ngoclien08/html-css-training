@@ -11,8 +11,8 @@
     justify-content: center;
     color: #000000;
     font-family: 'Heebo', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-lg);
     line-height: 29.38px;
     text-align: right;
     transition: color 0.3s;

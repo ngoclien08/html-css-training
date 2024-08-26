@@ -1,4 +1,3 @@
-/* Introduction Section */
 .introduction {
     display: flex;
     justify-content: space-between;
@@ -8,31 +7,28 @@
     padding: 20px;
   }
 
-  /* Content */
   .content {
     width: 506px;
     height: 105px;
     margin-top: 228px;
-    color: #21243D;
+    color: var(--dark-text-color);
     font-family: 'Heebo', sans-serif;
-    font-weight: 700;
-    font-size: 44px;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-bg);
     line-height: 60px;
   }
 
-  /* Text Content */
   .text-content {
     width: 497px;
     height: 66px;
     margin-top: 15px;
-    color: #21243D;
+    color: var(--dark-text-color);
     font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-sm);
     line-height: 23.5px;
   }
 
-  /* Button for downloading resume */
   .btn-downloadresume {
     display: inline-block;
     padding: 10px 20px;
@@ -40,8 +36,8 @@
     background-color: #FF6464;
     color: #FFFFFF;
     font-family: 'Heebo', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-lg);
     line-height: 29.38px;
     border: none;
     border-radius: 2px;

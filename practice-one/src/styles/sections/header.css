@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 27px 0;
+  }
+
+  .navbar-item {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29.38px;
+    text-align: right;
+    transition: color 0.3s;
+  }
+
+    .navbar-item.blog {
+    width: 106px;
+    height: 43px;
+  }
+
+  .navbar-item.works {
+    width: 57px;
+    height: 43px;
+  }
+
+  .navbar-item.contact {
+    width: 71px;
+    height: 43px;
+  }
+
+  .navbar-item:hover {
+    color: #ff5733;
+  }

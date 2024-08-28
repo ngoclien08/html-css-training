@@ -1,10 +1,11 @@
 :root {
     --primary-color:#FF6464;
     --secondary-color:#00A8CC;
-    --bg-color: #FFFFFF;
+    --color-light: #FFF;
+    --bg-color:#EDF7FA;
     --dark-text-color: #21243D;
     --light-text-color: #8695A4;
-
+    --font-family:'Heebo';
     --font-weight-bold: 900;
     --font-weight-semibold: 700;
     --font-weight-medium: 500;

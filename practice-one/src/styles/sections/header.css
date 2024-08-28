@@ -2,37 +2,35 @@
     display: flex;
     justify-content: flex-end;
     padding: 27px 0;
-  }
+}
 
-  .navbar-item {
-
+.navbar-nav {
     display: flex;
     align-items: center;
     justify-content: center;
     color: #000000;
-    font-family: 'Heebo', sans-serif;
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-lg);
     line-height: 29.38px;
     text-align: right;
     transition: color 0.3s;
-  }
+}
 
-    .navbar-item.blog {
-    width: 106px;
-    height: 43px;
-  }
+.navbar-item {
+    list-style-type: none;
+    margin-right: 33px;
+}
 
-  .navbar-item.works {
-    width: 57px;
-    height: 43px;
-  }
+.navbar-link {
+    text-decoration: none;
+    color: #000000;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-lg);
+}
 
-  .navbar-item.contact {
-    width: 71px;
-    height: 43px;
-  }
+.navbar-item:hover {
+    color: #3385ff;
+}
 
-  .navbar-item:hover {
-    color: #ff5733;
-  }
+
+
+

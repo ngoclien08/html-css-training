@@ -1,9 +1,10 @@
-@import url(/src/styles/base/base.css);
-@import url(/src/styles/base/reset.css);
-@import url(/src/styles/base/typography.css);
-@import url(/src/styles/base/variables.css);
-@import url(/src/styles/sections/header.css);
-@import url(/src/styles/sections/introduction.css);
-@import url(/src/styles/sections/recent-posts.css);
-@import url(/src/styles/sections/featured-works.css);
-@import url(/src/styles/sections/footer.css);
+@import url(./base/base.css);
+@import url(./base/reset.css);
+@import url(./base/typography.css);
+@import url(./base/variable.css);
+@import url(./sections/header.css);
+@import url(./sections/introduction.css);
+@import url(./sections/recent-posts.css);
+@import url(./sections/featured-works.css);
+@import url(./sections/footer.css);
+

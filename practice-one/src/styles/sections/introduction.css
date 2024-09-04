@@ -1,29 +1,25 @@
-/* .introduction {
+.introduction {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 20px;
+    padding: 0 148px ;
 }
 
 .content {
     width: 506px;
     height: 105px;
-    margin-top: 228px;
     color: var(--dark-text-color);
-    font-family: 'Heebo', sans-serif;
+    font-family: var(--font-family);
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-bg);
     line-height: 60px;
+    margin: 144px 110px 0 0;
 }
 
 .text-content {
     width: 497px;
     height: 66px;
-    margin-top: 15px;
+    margin-top: 38px;;
     color: var(--dark-text-color);
-    font-family: 'Heebo', sans-serif;
+    font-family: var(--font-family);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-sm);
     line-height: 23.5px;
@@ -31,11 +27,11 @@
 
 .btn-downloadresume {
     display: inline-block;
-    padding: 10px 20px;
-    margin-top: 20px;
-    background-color: #FF6464;
-    color: #FFFFFF;
-    font-family: 'Heebo', sans-serif;
+    padding: 10px 20px 10px 21px;;
+    margin-top: 38px;
+    background-color: var(--primary-color);
+    color: var(--color-light);
+    font-family: var(--font-family);
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-lg);
     line-height: 29.38px;
@@ -46,15 +42,38 @@
 }
 
 .imagine{
-    position: absolute;
+    position: relative;
     width: 243px;
     height: 243px;
-    top: 210px;
-    left: 760px;
-    border-radius: 50%;
-    overflow: hidden;
+    margin-top: 139px;
 }
 
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 243px;
+    height: 243px;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.profile-image {
+    width: 243px;
+    height: 243px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 13px;
+    left: 5px;
+    z-index: 2;
+}
+.overlay {
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
 .btn-downloadresume:hover {
     background-color: #e65555;
-} */
+}

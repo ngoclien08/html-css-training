@@ -60,7 +60,7 @@
     "lines-and-columns": "^1.2.4",
     "lmdb": "^2.8.5",
     "mdn-data": "^2.0.30",
-    "micromatch": "^4.0.7",
+    "micromatch": "^4.0.8",
     "msgpackr": "^1.11.0",
     "msgpackr-extract": "^3.0.3",
     "node-addon-api": "^7.1.1",

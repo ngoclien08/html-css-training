@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-between;
     padding: 0 148px ;
+    margin-bottom: 71px;
 }
 
 .content {
-    width: 506px;
-    height: 105px;
     color: var(--dark-text-color);
     font-family: var(--font-family);
     font-weight: var(--font-weight-semibold);
@@ -18,7 +17,7 @@
 .text-content {
     width: 497px;
     height: 66px;
-    margin-top: 38px;;
+    margin-top: 38px;
     color: var(--dark-text-color);
     font-family: var(--font-family);
     font-weight: var(--font-weight-regular);

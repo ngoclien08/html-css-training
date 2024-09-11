@@ -41,7 +41,7 @@
     transition: background-color 0.3s;
 }
 
-.imagine{
+.imagine {
     position: relative;
     width: 243px;
     height: 243px;
@@ -66,12 +66,12 @@
     bottom: 13px;
     left: 5px;
     z-index: 2;
-
 }
+
 .overlay {
     opacity: 0.7;
-
 }
+
 .btn-downloadresume:hover {
     background-color: #e65555;
 }

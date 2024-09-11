@@ -20,7 +20,7 @@
 .view-tag {
     text-decoration: none;
     color: var(--secondary-color);
-    font-weight: var(--secondary-color-semibold);
+    font-weight: var(--font-weight-regular);
     font-size: var(--font-size-sm);
     margin: 27px 0 15px 0;
     transition: background-color 0.3s,
@@ -35,7 +35,7 @@
 .post-item {
     background-color: var(--color-light);
     width: 418px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .post-heading {
@@ -51,12 +51,11 @@
 
 .divider {
     height: 21px;
-    border: solid 1px;
-    background-color: #000000
+    border: 1px solid #000000
 }
 
 .place {
-    margin-left: 20px;
+    margin-left: 26px;
 }
 
 .span-wrapper {

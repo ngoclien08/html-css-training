@@ -1,55 +1,75 @@
 .recent-posts-container {
     background-color: var(--bg-color);
-    padding-inline: 148px;
+    font-family: var(--font-family);
+    padding: 0 148px 32px 148px;
 }
 
 .recent-posts-label {
     display: flex;
     justify-content: space-between;
-    margin: 7px 69px 32px
-
+    align-items: center;
 }
 
 .recent-tag {
-    font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-xl);
+    color: var(--dark-text-color);
+    padding: 20px 0 17px 0;
 }
 
 .view-tag {
     text-decoration: none;
     color: var(--secondary-color);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-sm);
+    padding: 27px 0 15px 0;
+    transition: background-color 0.3s,
 }
 
-.posts-list {
+.recent-posts-list {
     display: flex;
+    color: var(--dark-text-color);
     gap: 20px;
 }
 
-.post-item {
+.recent-post-item {
     background-color: var(--color-light);
-    margin-bottom: 32px;
     width: 418px;
+    border-radius: 4px;
 }
 
-.post-heading {
-    font-weight: 700;
-    font-size: 26px;
+.recent-post-heading {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-2xl);
     margin: 24px 21px 17px 23px;
 }
 
 .time {
-    border-right: solid 0.5px;
-    padding-right: 20px;
+    margin-right: 30px;
     margin-left: 23px;
 }
 
+.divider {
+    height: 21px;
+    border: 1px solid #000000
+}
+
 .place {
-    margin-left: 20px;
+    margin-left: 26px;
 }
 
 .span-wrapper {
-    margin-bottom: 11px;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-md);
+    margin-bottom: 21px;
 }
 
-.post-text {
-    padding: 0 27px 7px 23px;
+.recent-post-paragraph {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-sm);
+    margin: 0 27px 30px 23px;
+}
+
+.view-tag:hover {
+    color: #00c3ff;
 }

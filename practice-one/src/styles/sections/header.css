@@ -19,6 +19,10 @@
     margin-right: 33px;
 }
 
+.navbar-item:last-child {
+    margin-right: 60px;
+}
+
 .navbar-link {
     text-decoration: none;
     color: #000000;
@@ -27,8 +31,8 @@
     font-size: var(--font-size-lg);
 }
 
-.navbar-item:hover {
-    color: #ff3333;
+.navbar-link:hover {
+    color: var(--primary-color);
 }
 
 

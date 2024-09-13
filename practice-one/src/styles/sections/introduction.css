@@ -1,40 +1,42 @@
 .introduction {
     display: flex;
     justify-content: space-between;
-    padding: 0 148px ;
-    margin-bottom: 71px;
+    padding: 0 148px 71px;
 }
 
-.content {
-    color: var(--dark-text-color);
+.introduction-content {
     font-family: var(--font-family);
+    padding: 144px 110px 0 0;
+}
+
+.introduction-heading {
     font-weight: var(--font-weight-semibold);
     font-size: var(--font-size-bg);
+    color: var(--dark-text-color);
+    width: 506px;
+    height: 105px;
     line-height: 60px;
-    margin: 144px 110px 0 0;
+    margin-bottom: 40px;
 }
 
-.text-content {
-    width: 497px;
-    height: 66px;
-    margin-top: 38px;
-    color: var(--dark-text-color);
-    font-family: var(--font-family);
+.introduction-paragraph {
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-sm);
+    color: var(--dark-text-color);
+    width: 497px;
+    height: 66px;
     line-height: 23.5px;
+    margin-bottom: 38px;
 }
 
 .btn-downloadresume {
     display: inline-block;
-    padding: 10px 20px 10px 21px;;
-    margin-top: 38px;
     background-color: var(--primary-color);
     color: var(--color-light);
-    font-family: var(--font-family);
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-lg);
     line-height: 29.38px;
+    padding: 10px 20px 10px 21px;
     border: none;
     border-radius: 2px;
     cursor: pointer;
@@ -74,4 +76,5 @@
 
 .btn-downloadresume:hover {
     background-color: #e65555;
+    transform: scale(1.02);
 }

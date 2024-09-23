@@ -1,0 +1,5 @@
+.details-title {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xl);
+  color: var(--dark-text-color);
+}

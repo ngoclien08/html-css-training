@@ -4,10 +4,11 @@
 @import url(./base/variable.css);
 @import url(./components/card-post.css);
 @import url(./components/card-info.css);
-@import url(./components/details.css);
+@import url(./components/title.css);
 @import url(./sections/header.css);
 @import url(./sections/footer.css);
 @import url(./sections/introduction.css);
 @import url(./sections/recent-posts.css);
 @import url(./sections/featured-works.css);
+@import url(./sections/footer.css);
 

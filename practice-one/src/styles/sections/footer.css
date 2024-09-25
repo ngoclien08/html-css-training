@@ -1,21 +1,21 @@
 .footer-container {
-    background-color: var(--color-light);
-    text-align: center;
-    padding: 51px 148px 54px;
+  background-color: var(--color-light);
+  text-align: center;
+  padding: 51px 148px 54px;
 }
 
 .social-icons {
-    margin-bottom: 26px;
+  margin-bottom: 26px;
 }
 
 .social-icons a {
-    margin: 0 17px;
-    text-decoration: none;
-    font-size: 24px;
+  margin: 0 17px;
+  text-decoration: none;
+  font-size: 24px;
 }
 
 .copyright {
-    font-family: var(--font-family);
-    color: var(--dark-text-color);
-    font-size: var(--font-size-xs);
+  font-family: var(--font-family);
+  color: var(--dark-text-color);
+  font-size: var(--font-size-xs);
 }

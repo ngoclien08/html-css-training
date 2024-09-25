@@ -30,13 +30,16 @@
 }
 
 .card-info-category {
-  margin: 26px;
+  margin-left: 26px;
+}
+
+.card-info-category:hover {
+  color: var(--light-text-color);
 }
 
 .card-info-description {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
-
 }
 
 

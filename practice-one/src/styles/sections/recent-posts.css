@@ -1,7 +1,7 @@
 .recent-posts-container {
   background-color: var(--bg-color);
   font-family: var(--font-family);
-  padding: 0 148px 32px 148px;
+  padding: 7px 148px 32px 148px;
 }
 
 .recent-posts-label {
@@ -10,16 +10,11 @@
   align-items: center;
 }
 
-.recent-posts-label:first-child .details-title {
-  padding: 20px 0 17px 0;
-}
-
 .view-tag {
   text-decoration: none;
   color: var(--secondary-color);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
-  margin: 27px 0 15px 0;
   transition: background-color 0.3s,
 }
 
@@ -28,6 +23,7 @@
   justify-content: space-between;
   color: var(--dark-text-color);
   gap: 20px;
+  margin-top: 2px;
 }
 
 .view-tag:hover {

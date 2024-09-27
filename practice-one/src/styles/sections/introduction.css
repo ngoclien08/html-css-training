@@ -1,81 +1,82 @@
 .introduction {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 148px 71px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 148px 71px;
 }
 
 .introduction-content {
-    font-family: var(--font-family);
-    padding-top: 144px;
-    gap: 110px;
+  font-family: var(--font-family);
+  padding-top: 144px;
+  gap: 110px;
 }
 
 .introduction-heading {
-    font-weight: var(--font-weight-semibold);
-    font-size: var(--font-size-bg);
-    color: var(--dark-text-color);
-    width: 506px;
-    height: 105px;
-    line-height: 60px;
-    margin-bottom: 40px;
-}
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-bg);
+  color: var(--dark-text-color);
+  width: 506px;
+  height: 105px;
+  line-height: 60px;
+  margin-bottom: 40px;
+  }
 
 .introduction-paragraph {
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-sm);
-    color: var(--dark-text-color);
-    width: 497px;
-    height: 66px;
-    line-height: 23.5px;
-    margin-bottom: 38px;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-sm);
+  color: var(--dark-text-color);
+  width: 497px;
+  height: 66px;
+  line-height: 23.5px;
+  margin-bottom: 38px;
 }
 
 .btn-downloadresume {
-    display: inline-block;
-    background-color: var(--primary-color);
-    color: var(--color-light);
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-lg);
-    line-height: 29.38px;
-    padding: 9px 20px 9px 21px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--color-light);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg);
+  line-height: 29.38px;
+  padding: 9px 20px 9px 21px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .imagine {
-    position: relative;
-    width: 243px;
-    height: 243px;
-    margin-top: 139px;
+  position: relative;
+  width: 243px;
+  height: 243px;
+  margin-top: 139px;
 }
 
 .circle {
-    position: absolute;
-    width: 243px;
-    height: 243px;
-    background-color: var(--bg-color);
-    border-radius: 50%;
-    z-index: 1;
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  background-color: var(--bg-color);
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .profile-image {
-    width: 243px;
-    height: 243px;
-    object-fit: cover;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 13px;
-    left: 5px;
-    z-index: 2;
+  width: 243px;
+  height: 243px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 13px;
+  left: 5px;
+  z-index: 2;
 }
 
 .overlay {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .btn-downloadresume:hover {
-    background-color: #e65555;
-    transform: scale(1.02);
+  background-color: #e65555;
+  transform: scale(1.02);
 }
+

@@ -1,0 +1,8 @@
+.section-title {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xl);
+  color: var(--dark-text-color);
+  height: 60px;
+  display: flex;
+  align-items: center;
+}

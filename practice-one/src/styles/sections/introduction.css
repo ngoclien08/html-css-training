@@ -30,7 +30,7 @@
   margin-bottom: 38px;
 }
 
-.btn-downloadresume {
+.btn-resume-download {
   display: inline-block;
   background-color: var(--primary-color);
   color: var(--color-light);

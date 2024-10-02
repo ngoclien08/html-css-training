@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><code>width=device-width</code> tells the page to match the screen's width in device-independent pixels (DIP). This lets the page reflow content to match different screen sizes.</li>
+        <li>DIP: a standard visual pixel unit (which can be made up of many physical pixels on a high-density screen)</li>
+        <li>Because some browsers keep the page's width constant when rotating to landscape mode, and zoom to fill the screen instead of reflowing</li>
+        <li><code>initial-scale=1</code> tells browsers to set a 1:1 relationship between CSS pixels and device-independent pixels regardless of device orientation, letting the page take advantage of the full landscape width.</li>
+        <li>Caution:</li>
+        <ul>
+            <li>To ensure that older browsers can properly parse the attributes, use a comma to separate attributes: content="width=device-width, initial-scale=1.0"</li>
+            <li>In addition to <code>initial-scale</code>, the <code>minimum-scale</code>, <code>maximum-scale</code>, and <code>user-scalable</code> attributes are also available. They are not recommended because they can prevent the user from zooming the viewport, potentially causing accessibility issues.</li>
+        </ul>
+    </ul>
+</body>
+</html>

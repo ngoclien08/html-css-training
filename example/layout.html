@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+
+        .fixed-width { 
+            width: 400px; 
+            height: 150px; 
+            background: lightgreen; 
+        }
+
+        .percentage-width {
+             width: 50%; 
+             height: 150px; 
+             background: lightpink; 
+            }
+
+        .flex { 
+            display: flex; 
+            gap: 10px; 
+        }
+
+        .flex > div { 
+            flex: 1; 
+            border: 1px solid black; 
+            background: lightgreen; 
+            padding: 10px; 
+            text-align: center; 
+        }
+
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+            gap: 10px; 
+        }
+
+        .grid > div { 
+            border: 1px solid black; 
+            background: lightgreen; 
+            padding: 10px; 
+            text-align: center; 
+        }
+
+        .multicol { 
+            column-width: 250px; 
+            column-gap: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <h2>Image Handling</h2>
+    <p><code>max-width: 100%</code> ensures images resize within their container.</p>
+    <img src="https://via.placeholder.com/400" alt="Sample Image">
+
+    <h2>Layout Techniques</h2>
+    <div class="fixed-width">Fixed 400px width div.</div>
+    <div class="percentage-width">50% width div.</div>
+
+    <h3>Flexbox</h3>
+    <div class="flex">
+        <div>Flex Item 1</div>
+        <div>Flex Item 2</div>
+        <div>Flex Item 3</div>
+    </div>
+
+    <h3>Grid</h3>
+    <div class="grid">
+        <div>Grid Item 1</div>
+        <div>Grid Item 2</div>
+        <div>Grid Item 3</div>
+        <div>Grid Item 4</div>
+        <div>Grid Item 5</div>
+    </div>
+
+    <h3>Multi-column Layout:</h3>
+    <div class="multicol">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Curabitur in lectus eu eros convallis aliquet.</p>
+    </div>
+</body>
+</html>

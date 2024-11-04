@@ -1,0 +1,12 @@
+/* breakpoints.css */
+:root {
+  /* Breakpoints values */
+  --mobile-width: 320px;
+  --tablet-width: 768px;
+  --desktop-width: 1024px;
+
+  /* Container min-width */
+  --container-mobile: 100%;
+  --container-tablet: 720px;
+  --container-desktop: 960px;
+}

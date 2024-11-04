@@ -1,0 +1,22 @@
+/* responsive.css */
+/* Base styles - Mobile first */
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;	
+}
+
+/* Tablet (768px and up) */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: var(--container-tablet);
+  }
+}
+  
+/* Desktop (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: var(--container-desktop);
+  }
+}
+  

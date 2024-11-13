@@ -1,12 +1,32 @@
-/* breakpoints.css */
-:root {
-  /* Breakpoints values */
-  --mobile-width: 320px;
-  --tablet-width: 768px;
-  --desktop-width: 1024px;
-
-  /* Container min-width */
-  --container-mobile: 100%;
-  --container-tablet: 720px;
-  --container-desktop: 960px;
+/* Base styles - Mobile first */
+.header-container,
+.hero-container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 }
+
+/* Tablet: (768px and up) */
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 720px;
+  }
+
+  .hero-container {
+    width: 720px;
+  }
+}
+
+/* Desktop (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .header-container {
+    width: 960px;
+  }
+
+  .hero-container {
+    width: 960px;
+  }
+}
+
+
+

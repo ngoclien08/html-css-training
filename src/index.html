@@ -10,12 +10,10 @@
   <header class="header-container">
     <nav class="navbar">
       <div class="nav-icon-list-wrapper">
-        <button class="nav-icon" type="button">
-            <label for="dropdown-menu">
-                <img class="nav-icon-img" src="/src/assets/images/navbar-icon.png" alt="navbar-icon">
-            </label>
-        </button>
-        <input type="checkbox" id="dropdown-menu">
+        <input type="checkbox" id="dropdown-menu" class="nav-toggle"/>
+        <label for="dropdown-menu" class="nav-icon">
+            <img class="nav-icon-img" src="/src/assets/images/navbar-icon.png" alt="navbar-icon">
+        </label>
         <ul class="nav-list">
             <li class="nav-item">
               <a href="javascript:void(0)" class="nav-link">Works</a>
@@ -27,8 +25,20 @@
               <a href="javascript:void(0)" class="nav-link">Contact</a>
             </li>
         </ul>
+      </div>
     </nav>
   </header>
+  <section class="hero">
+    <div class="hero-image">
+        <img src="assets/images/profile.png" alt="profile" class="profile-image">
+        <div class="overlay"></div>
+    </div>
+    <div class="hero-container">
+        <h1 class="hero-heading">Hi, I am John,<br>Creative Technologist</h1>
+        <p class="hero-paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+        <button class="button-hero-button" type="button">Download Resume</button>
+    </div>
+  </section>
 </body>
 </html>
 

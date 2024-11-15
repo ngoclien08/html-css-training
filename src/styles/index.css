@@ -3,6 +3,9 @@
 @import url(./base/typography.css);
 @import url(./base/variables.css);
 @import url(./components/button.css);
+@import url(./components/card-info.css);
 @import url(./breakpoints.css);
 @import url(./sections/header.css);
 @import url(./sections/hero.css);
+@import url(./sections/recent-posts.css);
+@import url(./sections/featured-works.css);

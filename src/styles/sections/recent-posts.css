@@ -1,6 +1,7 @@
-.recent-posts {
+.recent-posts-container {
+  font-family: var(--font-family);
   background-color: var(--bg-color);
-  padding: 0 11px 38px;
+  padding: 0 10px 38px 11px;
 }
 
 .recent-posts-label {
@@ -9,11 +10,11 @@
 }
 
 .recent-posts-title {
+  display: flex;
+  height: 60px;
+  align-items: center;
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-md);
-  height: 60px;
-  display: flex;
-  align-items: center;
 }
 
 .view-tag {
@@ -27,33 +28,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .recent-posts {
-    padding: 0 40px 20px;
-  }
-
-  .recent-posts-label {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .view-tag {
-    display: block;
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-sm);
-  }
-
-  .recent-posts-list {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .recent-posts {
-    padding: 0 130px 32px;
+  .recent-posts-container {
+    padding: 7px 70px 20px;
   }
 
   .recent-posts-label {
@@ -63,10 +39,7 @@
   }
 
   .recent-posts-title {
-    font-size: var(--font-size-xl);
-    height: 60px;
-    display: flex;
-    align-items: center;
+    font-size: var(--font-size-lg);
   }
 
   .view-tag {
@@ -74,6 +47,29 @@
     text-decoration: none;
     color: var(--secondary-color);
     font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-xs);
+  }
+
+  .recent-posts-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 19px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .recent-posts-container {
+    padding: 7px 172px 32px;
+  }
+
+  .recent-posts-label {
+    margin-bottom: 2px;
+  }
+
+  .recent-posts-title {
+    font-size: var(--font-size-xl);
+  }
+
+  .view-tag {
     font-size: var(--font-size-sm);
   }
 

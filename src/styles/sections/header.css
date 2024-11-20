@@ -63,8 +63,10 @@
 
 @media screen and (min-width: 768px) {
   .navbar {
-    padding: 27px 60px 27px;
+    justify-content: flex-end;
+    align-items: center;
     margin-left: auto;
+    padding: 27px 40px;
   }
 
   .nav-list {
@@ -90,11 +92,11 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .navbar {
-    justify-content: flex-end;
-    align-items: center;
+    padding: 27px 84px;
     }
   }
+
 
 

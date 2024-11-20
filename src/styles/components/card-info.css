@@ -1,14 +1,12 @@
 .card-info-container {
-  font-family: var(--font-family);
   background-color: var(--color-light);
-  padding: 12px 21px 22px 19px;
+  padding: 12px 8px 22px 19px;
   border-radius: 4px;
 }
 
-.card-info-title {
-  font-size: var(--font-size-xl);
+.card-info-heading {
   font-weight: var(--font-weight-semibold);
-  width: 327px;
+  font-size: var(--font-size-xl);
   margin-bottom: 12px;
   line-height: 30px;
 }
@@ -37,49 +35,55 @@
 .card-info-description {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
-  width: 314px;
+  padding-right: 13px;
   line-height: 23.5px;
 }
 
 @media screen and (min-width: 768px) {
   .card-info-container {
-    padding: 20px 18px 5px 20px;
+    padding: 20px 18px 25px 20px;
   }
 
-  .card-info-title {
-    font-size: var(--font-size-2xl);
+  .card-info-heading {
+    font-size: var(--font-size-xl);
+    margin-bottom: 20px;
+    line-height: 36px;
+  }
+
+  .card-info-wrapper {
+    font-size: var(--font-size-sm);
     margin-bottom: 15px;
   }
 
   .card-info-date {
-    margin-right: 26px;
+    margin-right: 20px;
   }
 
   .card-info-category {
-    margin-left: 24px;
+    margin-left: 18px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .card-info-container {
-    padding: 24px 21px 7px 23px;
+    padding: 24px 21px 30px 23px;
   }
 
-  .card-info-title {
+  .card-info-heading {
     font-size: var(--font-size-2xl);
-    margin-bottom: 17px;
+    margin-bottom: 30px;
+    line-height: 38.19px;
   }
 
   .card-info-wrapper {
     font-size: var(--font-size-md);
-    margin-bottom: 11px;
+    margin-bottom: 20px;
   }
 
   .card-info-date {
     margin-right: 30px;
   }
   .card-info-category {
-    margin-left: 26px;
-
+    margin-left: 26px
   }
 }

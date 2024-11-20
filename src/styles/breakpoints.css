@@ -8,23 +8,19 @@
 
 /* Tablet: (768px and up) */
 @media screen and (min-width: 768px) {
-  .header-container {
-    width: 720px;
-  }
-
-  .hero-container {
-    width: 720px;
+  .header-container,
+  .hero-container
+  .recent-post-container {
+    max-width: 760px;
   }
 }
 
-/* Desktop (1024px and up) */
-@media screen and (min-width: 1024px) {
-  .header-container {
-    width: 960px;
-  }
-
-  .hero-container {
-    width: 960px;
+/* Desktop (1200px and up) */
+@media screen and (min-width: 1200px) {
+  .header-container,
+  .hero-container
+  .recent-post-container {
+    max-width: 1152px;
   }
 }
 

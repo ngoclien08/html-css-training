@@ -1,0 +1,11 @@
+.button-hero-button {
+  font-family: var(--font-family);
+  background-color: var(--primary-color);
+  color: var(--color-light);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-lg);
+  border: none;
+  padding: 13px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}

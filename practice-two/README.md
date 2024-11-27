@@ -33,7 +33,7 @@
 - Clone source:
 
 ```
-https://github.com/ngoclien08/html-css-training.git
+ git clone https://github.com/ngoclien08/html-css-training.git
 ```
 
 - Move to project branch
@@ -41,6 +41,13 @@ https://github.com/ngoclien08/html-css-training.git
 ```
 git checkout feature/practice-two
 ```
+
+- Next open folder practice-two
+
+```
+cd practice-two
+```
+
 - Install packages
 
 ```
@@ -50,9 +57,14 @@ npm install
 - Run project
 
 ```
-npm run start
+npx parcel src/index.html
 ```
 
+- Build project
+
+```
+npm run build
+```
 
 
 

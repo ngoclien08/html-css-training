@@ -2,12 +2,6 @@
   padding: 54px 18px 51px;
 }
 
-.footer-copyright-and-icon {
-  display: flex;
-  text-align: center;
-  flex-direction: column-reverse;
-}
-
 .footer-copyright {
   font-family: var(--font-family);
   font-weight: var(--font-weight-regular);

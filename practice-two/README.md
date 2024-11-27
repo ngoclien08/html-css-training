@@ -1,5 +1,4 @@
-# Practice Two: HTML & CSS
-
+# Practice Two: HTML & CSS RESPONSIVE
 ## OVERVIEW
 
 - This is the document provided required for HTML CSS practice two

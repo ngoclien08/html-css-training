@@ -1,0 +1,29 @@
+.main-footer {
+  padding: 0
+}
+
+.footer-copyright-and-icon {
+  text-align: center;
+  flex-direction: column-reverse;
+  display: flex;
+  padding-top: 51px;
+  padding-bottom: 54px;
+  display: flex;
+}
+
+.footer-copyright {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  margin-top: 26px;
+  line-height: 20.5px;
+}
+
+.footer-icon {
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  display: flex;
+}
+
+

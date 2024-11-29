@@ -1,19 +1,19 @@
 .card-post-container {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
   border-bottom: 1px solid #E0E0E0;
+  flex-direction: column;
   margin-bottom: 17px;
+  display: flex;
+  overflow: hidden;
 }
 
-.card-post-image-wrapper {
-  margin-bottom: 17px;
+.card-post-content{
+  padding-bottom: 17px;
 }
 
-.card-post-heading {
+.card-post-title {
   font-weight: var(--font-weight-semibold);
   font-size: 24px;
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
 .card-post-year {
@@ -38,19 +38,20 @@
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
   color: var(--dark-text-color);
-  margin: 24px 0 17px;
+  margin-top: 24px;
   line-height: 23.5px;
 }
 
 @media screen and (min-width: 768px) {
   .card-post-container {
-    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 16px;
-    overflow: hidden;
-    border-bottom: 1px solid #E0E0E0;
     margin-bottom: 22px;
+  }
+
+  .card-post-content{
+    padding-bottom: 10px;
   }
 
   .card-post-image {
@@ -58,9 +59,10 @@
     height: 170px;
   }
 
-  .card-post-heading {
+  .card-post-title {
     font-size: var(--font-size-2xl);
-    margin-bottom: 20px;
+    margin: 0 0 20px;
+    padding-top: 10px;
   }
 
   .card-post-year {
@@ -73,13 +75,12 @@
   }
 
   .card-post-description {
-    width: 507px;
     height: 93px;
-    margin: 22px 0 18px;
+    margin-top: 22px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .card-post-container {
     gap: 18px;
     margin-bottom: 32px;
@@ -90,7 +91,7 @@
     height: 180px;
   }
 
-  .card-post-heading {
+  .card-post-title {
     font-size: var(--font-size-3xl);
     margin-bottom: 24px;
   }
@@ -101,6 +102,6 @@
   }
 
   .card-post-description {
-    margin: 26px 0 20px;
+    margin-top: 26px;
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "practice-two",
   "version": "1.0.0",
-  "description": "Welcome to my second HTML/CSS practice.",
+  "description": "",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
@@ -17,7 +17,6 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "@parcel/source-map": "^2.1.1",
-    "practice-two": "file:"
+    "@parcel/source-map": "^2.1.1"
   }
 }

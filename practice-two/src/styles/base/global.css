@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: var(--font-family);
+  color: var(--dark-text-color);
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Base styles - Mobile first */
+.container {
+	width: 100%;;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Tablet: (768px and up) */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 700px;
+    padding: 0 18px;
+  }
+}
+
+/* Desktop (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1032px;
+    padding: 0 87px;
+  }
+}

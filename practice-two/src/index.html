@@ -3,134 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="styles/main.css">
   <title>Portfolio UI</title>
 </head>
 <body>
-  <header class="header">
-      <div class="wrappep">
-        <input type="checkbox" id="dropdown-menu" class="nav-toggle"/>
-        <label for="dropdown-menu" class="nav-icon">
-            <img class="nav-icon-img" src="/src/assets/images/navbar-icon.png" alt="navbar-icon">
-        </label>
-        <ul class="navbar">
-            <li class="navbar-item">
-              <a href="javascript:void(0)" class="navbar-link">Works</a>
-            </li>
-            <li class="navbar-item">
-              <a href="javascript:void(0)" class="navbar-link">Blog</a>
-            </li>
-            <li class="navbar-item">
-              <a href="javascript:void(0)" class="navbar-link">Contact</a>
-            </li>
+  <header class="main-header">
+    <div>
+      <nav class="header-navbar">
+        <ul class="navbar-list">
+          <li>
+            <a class="navbar-item" href="javascript:void(0)">Works</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="javascript:void(0)">Blog</a>
+          </li>
+          <li>
+            <a class="navbar-item" href="javascript:void(0)">Contact</a>
+          </li>
         </ul>
-      </div>
+        <div class="hamburger-icon">
+          <img src="assets/icons/hamburger-menu.svg" alt="hamburger menu">
+        </div>
+      </nav>
+    </div>
   </header>
-  <section class="hero-container">
-    <div class="hero-image">
-        <img src="assets/images/profile.png" alt="profile" class="profile-image">
-        <div class="overlay"></div>
-    </div>
-    <div class="hero-content">
-        <h1 class="hero-heading">Hi, I am John,<br>Creative Technologist</h1>
-        <p class="hero-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
-        <button class="button-hero-button" type="button">Download Resume</button>
-    </div>
-  </section>
-  <section class="recent-posts-container">
-    <div class="recent-posts-label">
-        <h2 class="recent-posts-title">Recent posts</h2>
-        <a class="view-tag" href="javascript:void(0)">View all</a>
-    </div>
-    <div class="recent-posts-list">
-        <div class="card-info-container">
-            <h3 class="card-info-heading">Making a design system from scratch</h3>
-            <div class="card-info-wrapper">
-                <span class="card-info-date">12 Feb 2020</span>
-                <span class="card-info-divider"></span>
-                <span class="card-info-category">Design, Pattern</span>
-            </div>
-            <p class="card-info-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+  <main>
+    <!--Start Hero Section -->
+    <section class="hero container">
+      <div class="hero-image">
+          <img src="assets/images/profile.png" alt="profile" class="profile-image">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero-content">
+          <h1 class="hero-title">Hi, I am John,<br>Creative Technologist</h1>
+          <p class="hero-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </p>
+          <button class="btn hero-btn" type="button">Download Resume</button>
+      </div>
+    </section>
+    <!--End Hero Section-->
+    <!--Start Recent Posts Section -->
+    <section class="recent-posts">
+      <div class="container">
+        <div class="recent-posts-label">
+          <h2 class="recent-posts-title">Recent posts</h2>
+          <a class="view-tag" href="javascript:void(0)">View all</a>
         </div>
-        <div class="card-info-container">
-            <h3 class="card-info-heading">Creating pixel perfect icons in Figma</h3>
-            <div class="card-info-wrapper">
-                <span class="card-info-date">12 Feb 2020</span>
-                <span class="card-info-divider"></span>
-                <span class="card-info-category">Figma, Icon Design</span>
-            </div>
-            <p class="card-info-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
-    </div>
-  </section>
-  <section class="featured-works-container">
-    <h2 class="featured-works-title">Featured works</h2>
-    <div class="featured-works-list">
-      <div class="card-post-container">
-        <div class="card-post-image-wrapper">
-          <img class="card-post-image" src="assets/images/dashboards.png" alt="dashboards">
-        </div>
-        <div class="card-post-content">
-          <h3 class="card-post-heading">Designing Dashboards</h3>
-          <span class="card-post-year">2020</span>
-          <span class="card-post-category">Dashboard</span>
-          <p class="card-post-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-           officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <div class="recent-posts-list">
+          <div class="card-info-content">
+              <h3 class="card-info-title">Making a design system from scratch</h3>
+              <div class="card-info-wrapper">
+                  <span class="card-info-date">12 Feb 2020</span>
+                  <span class="card-info-divider"></span>
+                  <span class="card-info-category">Design, Pattern</span>
+              </div>
+              <p class="card-info-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
+          <div class="card-info-content">
+              <h3 class="card-info-title">Creating pixel perfect icons in Figma</h3>
+              <div class="card-info-wrapper">
+                  <span class="card-info-date">12 Feb 2020</span>
+                  <span class="card-info-divider"></span>
+                  <span class="card-info-category">Figma, Icon Design</span>
+              </div>
+              <p class="card-info-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </div>
         </div>
       </div>
-      <div class="card-post-container">
-        <div class="card-post-image-wrapper">
-          <img class="card-post-image" src="assets/images/portraits.png" alt="portraits">
-        </div>
-        <div class="card-post-content">
-          <h3 class="card-post-heading">Vibrant Portraits of 2020</h3>
-          <span class="card-post-year">2019</span>
-          <span class="card-post-category">Illustration</span>
-          <p class="card-post-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
-           officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+    </section>
+    <!--End Recent Posts Section -->
+    <!--Start Featured Works Section -->
+    <section class="featured-works">
+      <div class="container">
+        <h2 class="featured-works-title">Featured works</h2>
+        <div class="featured-works-list">
+          <div class="card-post-container">
+              <div>
+                  <img class="card-post-image" src="assets/images/dashboards.png" alt="dashboards">
+              </div>
+              <div class="card-post-content">
+                  <h3 class="card-post-title">Designing Dashboards</h3>
+                  <span class="card-post-year">2020</span>
+                  <span class="card-post-category">Dashboard</span>
+                  <p class="card-post-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                  officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+          </div>
+          <div class="card-post-container">
+              <div>
+                  <img class="card-post-image" src="assets/images/portraits.png" alt="portraits">
+              </div>
+              <div class="card-post-content">
+                  <h3 class="card-post-title">Vibrant Portraits of 2020</h3>
+                  <span class="card-post-year">2019</span>
+                  <span class="card-post-category">Illustration</span>
+                  <p class="card-post-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                  officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+          </div>
+          <div class="card-post-container">
+              <div>
+                  <img class="card-post-image" src="assets/images/malayalam.png" alt="malayalam">
+              </div>
+              <div class="card-post-content">
+                  <h3 class="card-post-title">36 Days of Malayalam type</h3>
+                  <span class="card-post-year">2018</span>
+                  <span class="card-post-category">Typography</span>
+                  <p class="card-post-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                  consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              </div>
+          </div>
         </div>
       </div>
-      <div class="card-post-container">
-        <div class="card-post-image-wrapper">
-          <img class="card-post-image" src="assets/images/malayalam.png" alt="malayalam">
-        </div>
-        <div class="card-post-content">
-          <h3 class="card-post-heading">36 Days of Malayalam type</h3>
-          <span class="card-post-year">2018</span>
-          <span class="card-post-category">Typography</span>
-          <p class="card-post-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-           consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="footer-container">
-    <div class="footer-copyright-and-icon">
+    </section>
+  </main>
+  <!--End Featured Works Section -->
+  <footer class="main-footer">
+    <div class="container footer-copyright-and-icon">
       <p class="footer-copyright">Copyright ©2020 All rights reserved</p>
-      <div class="footer-icon-container">
-          <div class="footer-icon-wrapper icon-wrapper-sm">
+      <div class="footer-icon">
+          <div class="footer-icon-wrapper ">
               <a class="footer-icon-link" href="javascript:void(0)">
-                  <img class="footer-icon" src="assets/icons/facebook.png" alt="Facebook icon">
+                  <img class="footer-icon" src="assets/icons/facebook.svg" alt="Facebook icon">
               </a>
           </div>
-          <div class="footer-icon-wrapper icon-wrapper-sm">
+          <div class="footer-icon-wrapper">
               <a class="footer-icon-link" href="javascript:void(0)">
-                  <img class="footer-icon" src="assets/icons/instagram.png" alt="Instagram icon">
+                  <img class="footer-icon" src="assets/icons/instagram.svg" alt="Instagram icon">
               </a>
           </div>
-          <div class="footer-icon-wrapper icon-wrapper-sm">
+          <div class="footer-icon-wrapper">
               <a class="footer-icon-link" href="javascript:void(0)">
-                  <img class="footer-icon" src="assets/icons/group.png" alt="Group icon">
+                  <img class="footer-icon" src="assets/icons/twitter.svg" alt="Twitter icon">
               </a>
           </div>
-          <div class="footer-icon-wrapper icon-wrapper-sm">
+          <div class="footer-icon-wrapper">
               <a class="footer-icon-link" href="javascript:void(0)">
-                  <img class="footer-icon" src="assets/icons/linkedin.png" alt="Linkedin icon">
+                  <img class="footer-icon" src="assets/icons/linkedin.svg" alt="Linkedin icon">
               </a>
           </div>
       </div>
     </div>
   </footer>
+  <!-- Toggle script -->
+  <script src="js/toggle.js"></script>
 </body>
 </html>
 

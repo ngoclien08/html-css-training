@@ -1,10 +1,10 @@
-.card-info-container {
+.card-info-content {
   background-color: var(--color-light);
-  padding: 12px 8px 22px 19px;
   border-radius: 4px;
+  padding: 12px 8px 22px 19px;
 }
 
-.card-info-heading {
+.card-info-title {
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-xl);
   margin-bottom: 12px;
@@ -12,11 +12,11 @@
 }
 
 .card-info-wrapper {
-  display: flex;
-  align-items: center;
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
+  align-items: center;
   margin-bottom: 19px;
+  display: flex;
 }
 
 .card-info-date {
@@ -28,8 +28,8 @@
 }
 
 .card-info-divider {
+  border: 1px solid #000000;
   height: 21px;
-  border: 1px solid #000000
 }
 
 .card-info-description {
@@ -40,11 +40,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card-info-container {
+  .card-info-content {
     padding: 20px 18px 25px 20px;
   }
 
-  .card-info-heading {
+  .card-info-title {
     font-size: var(--font-size-xl);
     margin-bottom: 20px;
     line-height: 36px;
@@ -64,12 +64,12 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .card-info-container {
+@media screen and (min-width: 1024px) {
+  .card-info-content {
     padding: 24px 21px 30px 23px;
   }
 
-  .card-info-heading {
+  .card-info-title {
     font-size: var(--font-size-2xl);
     margin-bottom: 30px;
     line-height: 38.19px;

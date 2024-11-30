@@ -17,6 +17,7 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "@parcel/source-map": "^2.1.1"
+    "@parcel/source-map": "^2.1.1",
+    "practice-two": "file:"
   }
 }

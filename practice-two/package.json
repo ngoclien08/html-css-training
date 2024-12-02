@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "@parcel/source-map": "^2.1.1",
-    "practice-two": "file:"
+    "debug": "^4.3.7",
+    "practice-two": "file:",
+    "uuid": "^11.0.3"
   }
 }

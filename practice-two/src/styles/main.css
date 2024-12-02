@@ -12,6 +12,6 @@
 @import url(./layout/footer.css);
 
 
-@import url(./page/home/recent-posts.css);
-@import url(./page/home/featured-works.css);
-@import url(./page/home/hero.css);
+@import url(./sections/recent-posts);
+@import url(./sections/featured-works.css);
+@import url(./sections/hero.css);

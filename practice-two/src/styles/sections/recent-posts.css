@@ -1,6 +1,6 @@
 .recent-posts {
   font-family: var(--font-family);
-  background-color: var(--bg-color);
+  background-color: var(--color-bg);
   margin-top: 58px;
   padding: 0 10px 38px 11px;
 }
@@ -11,11 +11,11 @@
 }
 
 .recent-posts-title {
-  display: flex;
-  height: 60px;
-  align-items: center;
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-md);
+  align-items: center;
+  height: 60px;
+  display: flex;
 }
 
 .view-tag {
@@ -23,9 +23,9 @@
 }
 
 .recent-posts-list {
-  display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 17px;
+  grid-template-columns: 1fr;
+  display: grid;
 }
 
 @media screen and (min-width: 768px) {
@@ -47,14 +47,14 @@
   .view-tag {
     display: block;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--color-secondary);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-xs);
   }
 
   .recent-posts-list {
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: 19px;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 30px;
   }
 }

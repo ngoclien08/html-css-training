@@ -1,13 +1,13 @@
 :root {
-  --font-family:'Heebo';
-  --primary-color:#FF6464;
-  --secondary-color:#00A8CC;
-  --bg-accent: #FF7C7C;
-  --bg-color:#EDF7FA;
+  --font-family: 'Heebo';
+  --color-primary: #ff6464;
+  --color-secondary: #00a8cc;
+  --color-bg-accent: #ff7c7c;
+  --color-bg: #edf7fa;
   --color-light: #ffffff;
   --color-dark: #000000;
-  --dark-text-color: #21243D;
-  --light-text-color: #8695A4;
+  --color-dark-text-: #21243d;
+  --color-light-text-: #8695a4;
 
   --font-weight-bold: 900;
   --font-weight-semibold: 700;

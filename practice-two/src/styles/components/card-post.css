@@ -29,7 +29,7 @@
 .card-post-category {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
-  color: var(--light-text-color);
+  color: var(--color-light-text);
   margin-left: 22px;
   display: inline-block;
 }
@@ -37,7 +37,7 @@
 .card-post-description {
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
-  color: var(--dark-text-color);
+  color: var(--color-dark-text);
   margin-top: 24px;
   line-height: 23.5px;
 }

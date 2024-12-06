@@ -28,7 +28,7 @@
 }
 
 .card-info-divider {
-  border: 1px solid #000000;
+  border: 1px solid var(--color-dark);
   height: 21px;
 }
 

@@ -22,7 +22,7 @@
 }
 
 .overlay {
-  background-color: var(--bg-color);
+  background-color: var(--color-bg);
   z-index: -1;
   border-radius: 50%;
   width: 170.86px;

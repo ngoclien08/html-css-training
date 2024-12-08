@@ -1,21 +1,12 @@
 .recent-posts {
   font-family: var(--font-family);
   background-color: var(--color-bg);
-  margin-top: 58px;
   padding: 0 10px 38px 11px;
 }
 
 .recent-posts-label {
   display: flex;
   justify-content: center;
-}
-
-.recent-posts-title {
-  font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-md);
-  align-items: center;
-  height: 60px;
-  display: flex;
 }
 
 .view-tag {
@@ -38,10 +29,6 @@
   .recent-posts-label {
     justify-content: space-between;
     align-items: center;
-  }
-
-  .recent-posts-title {
-    font-size: var(--font-size-lg);
   }
 
   .view-tag {
@@ -68,17 +55,13 @@
     margin-bottom: 2px;
   }
 
-  .recent-posts-title {
-    font-size: var(--font-size-xl);
-  }
-
   .view-tag {
     font-size: var(--font-size-sm);
   }
 
   .recent-posts-list {
     grid-gap: 20px;
-    padding-bottom: 38px;
+    padding-bottom: 32px;
   }
 }
 

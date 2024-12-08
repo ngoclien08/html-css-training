@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   display: flex;
+  padding: 33px 23px 58px 24px;
 }
 
 .hero-image {
@@ -47,7 +48,6 @@
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
   margin-bottom: 27px;
-  padding: 0 23px 0 24px;
   line-height: 23.5px;
 }
 
@@ -97,7 +97,6 @@
     width: 390px;
     height: auto;
     margin-bottom: 25px;
-    padding: 0;
   }
 }
 

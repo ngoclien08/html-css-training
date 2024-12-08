@@ -1,3 +1,27 @@
+/* Common CSS */
+.section-title {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-md);
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: var(--font-size-lg);
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section-title {
+    font-size: var(--font-size-xl);
+  }
+}
+
+/* Set font family */
 @font-face {
   font-family: 'Heebo';
   src: url('../../assets/fonts/Heebo-Regular.ttf') format('truetype');

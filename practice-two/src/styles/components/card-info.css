@@ -15,8 +15,9 @@
   font-weight: var(--font-weight-regular);
   font-size: var(--font-size-sm);
   align-items: center;
-  margin-bottom: 19px;
+  margin-bottom: 22px;
   display: flex;
+  line-height: 21px;
 }
 
 .card-info-date {
@@ -29,7 +30,7 @@
 
 .card-info-divider {
   border: 1px solid var(--color-dark);
-  height: 21px;
+  align-self: stretch;
 }
 
 .card-info-description {
@@ -62,6 +63,10 @@
   .card-info-category {
     margin-left: 18px;
   }
+
+  .card-info-description {
+    padding-left: 6px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -71,19 +76,18 @@
 
   .card-info-title {
     font-size: var(--font-size-2xl);
-    margin-bottom: 30px;
+    margin-bottom: 26px;
     line-height: 38.19px;
   }
 
   .card-info-wrapper {
     font-size: var(--font-size-md);
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
-
   .card-info-date {
     margin-right: 30px;
   }
   .card-info-category {
-    margin-left: 26px
+    margin-left: 25px
   }
 }

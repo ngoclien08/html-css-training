@@ -1,5 +1,5 @@
 .card-post-container {
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid var(--color-border);
   flex-direction: column;
   margin-bottom: 17px;
   display: flex;
@@ -21,7 +21,7 @@
   font-size: var(--font-size-sm);
   color: var(--color-light);
   cursor: pointer;
-  background-color: #142850;
+  background-color: var(--color-bg-secondary);
   border-radius: 16px;
   padding: 0 10px;
 }

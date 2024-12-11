@@ -1,6 +1,7 @@
 .recent-posts {
   font-family: var(--font-family);
   background-color: var(--color-bg);
+  margin-top: 58px;
   padding: 0 10px 38px 11px;
 }
 
@@ -21,8 +22,7 @@
 
 @media screen and (min-width: 768px) {
   .recent-posts {
-    height: 386px;
-    margin: 0;
+    margin-top: 50px;
     padding: 0;
   }
 
@@ -48,7 +48,6 @@
 
 @media screen and (min-width: 1024px) {
   .recent-posts {
-    height: 396px;
   }
 
   .recent-posts-label {

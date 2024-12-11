@@ -2,8 +2,10 @@
   --font-family: 'Heebo';
   --color-primary: #ff6464;
   --color-secondary: #00a8cc;
-  --color-bg-accent: #ff7c7c;
   --color-bg: #edf7fa;
+  --color-bg-secondary: #142850;
+  --color-light-red: #ff7c7c;
+  --color-border: #e0e0e0;
   --color-light: #ffffff;
   --color-dark: #000000;
   --color-dark-text: #21243d;

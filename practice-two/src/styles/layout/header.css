@@ -5,9 +5,9 @@
 .header-navbar {
   justify-content: space-between;
   align-items: center;
-  width: 340px;
+  width: 100%;
   margin: 0 auto;
-  padding: 20px 0 12px ;
+  padding: 20px 18px 12px ;
   display: flex;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .hamburger-icon {
-  margin-left: auto;
   height: 18px;
+  margin-left: auto;
   transition: transform 0.3s ease;
 }
 
@@ -51,8 +51,7 @@
 @media (min-width: 768px) {
   .header-navbar {
     justify-content: initial;
-    width: 720px;
-    padding: 20px 0 20px;
+    padding: 20px 30px 18px;
   }
 
   .navbar-list {

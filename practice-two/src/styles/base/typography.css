@@ -4,7 +4,7 @@
   font-size: var(--font-size-md);
   justify-content: center;
   align-items: center;
-  height: 60px;
+  line-height: 60px;
   display: flex;
 }
 
